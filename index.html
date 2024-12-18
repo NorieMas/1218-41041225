@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>代辦事項網頁</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1>代辦事項網頁</h1>
+
+    <!-- 表單新增代辦事項 -->
+    <div class="form-container">
+      <input type="text" id="taskInput" placeholder="輸入新的代辦事項">
+      <button onclick="createTodo()">新增代辦事項</button>
+    </div>
+
+    <!-- 顯示代辦事項列表 -->
+    <div id="todosList">
+      <h2>目前代辦事項狀態</h2>
+      <ul id="todoItems"></ul>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
